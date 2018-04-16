@@ -4,34 +4,22 @@
     
 }
 .header {
-    text-align: center;
-    background-color: yellow;
+    text-align: center;    
     padding: 5px;
 }
 .row::after {
     content: "";
     clear: both;
     display: table;
-    position: relative;
+    position: center;
 }
 
-.menu {
-    border-top-width: thin;
-	border-right-width: thin;
-	border-bottom-width: thin;
-	border-left-width: thin;
-	border-top-style: solid;
-	border-right-style: solid;
-	border-bottom-style: solid;
-	border-left-style: solid;
-	border-top-color: #FF0000;
-	border-right-color: #FF0000;
-	border-bottom-color: #FF0000;
-	border-left-color: #FF0000;
-	width: 500px;
-	height: 100px;
-    background-color: green;
-    
-
+.menu {  
     text-align: center;
+}
+body { 
+	background-image: url('fundo.jpg'); 
+} 
+h1{
+	color:white
 }
