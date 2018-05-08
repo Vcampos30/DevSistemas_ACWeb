@@ -1,24 +1,35 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<head>
-    <meta charset="UTF-8"> 
-	<link rel = "stylesheet" type = "text/css" href = "login.css">
-    <title> Login </title>
-    <link rel = "icon" type = "image/jpg" href = "icone.jpg"/> <!-- Icone adicionado, provável alteração-->
-</head>
- <body>
-     <div class = "login-box">
-	 <img src = "usuario.png" class = "avatar">
-		<h1>Login</h1>
-			<form>
-            <p> Email </p>
-            <input type = "email" name ="emailUser" maxlength = "50" size = "20" placeholder = "Digite seu email"> 
-			<p> Senha </p>
-            <input type = "senha" name = "senhaUser" maxlength = "30" required	placeholder = "Digite sua senha">
-			<p><label><input type = "checkbox" name = "LembrarLogin">Lembrar-se de mim </label></p>
-			<input type = "entrar" name = "entrarLogin" value = "Entrar">
-			<a href = "#"> Esqueci a senha</a>
-			</form>
-    </div>
-</body>
+	<head>
+		<meta charset="UTF-8"> 
+		<meta name =  "viewport" content = "width=device-width, initial-scale = 1.0">
+		<link rel = "stylesheet" type = "text/css" href = "login.css">
+		<title> Login </title>
+		<link rel = "icon" type = "image/png" href = "icone.png"/> <!-- Icone adicionado, provável alteração-->
+	</head>
+	<body>
+		<div id ="menu">
+			<ul>
+				<li><a href="">Home</a></li>
+				<li><a href="">Login</a></li>
+				<li><a href="">Alunos</a></li>
+				<li><a href="">Atividades</a></li>
+				<li><a href="">Detalhes da Disciplina</a></li>
+				<li><a href="">Nova disciplina</a></li>
+			</ul>
+		</div>
+		<div id = "login-box">
+		<img src = "usuario.png" class = "avatar">
+			<h1>Login</h1>
+				<form>
+				<p> Email </p>
+				<input type = "email" name ="emailUser" maxlength = "60" size = "20" placeholder = "Digite seu email"> 
+				<p> Senha </p>
+				<input type = "senha" name = "senhaUser" maxlength = "30" required	placeholder = "Digite sua senha">
+				<p><label><input type = "checkbox" name = "LembrarLogin">Lembrar-se de mim </label></p>
+				<input type = "entrar" name = "entrarLogin" value = "Entrar">
+				<a href = "#"> Esqueci a senha</a>
+				</form>
+		</div>
+	</body>
 </html>

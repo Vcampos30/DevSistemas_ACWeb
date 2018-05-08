@@ -7,12 +7,34 @@ body {
 	font-family: sans-serif;
 }
 
-.login-box {
+#menu ul {
+    padding:5px;
+    margin:5px;
+    background-color:#EDEDED;
+    list-style:none;
+}
+#menu ul li { display: inline; }
+
+#menu ul li a {
+    padding: 2px 10px;
+    display: inline-block;
+    background-color:#EDEDED;
+    color: #000;
+    text-decoration: none;
+    border-bottom:3px solid #EDEDED;
+}
+#menu ul li a:hover {
+    background-color:#D6D6D6;
+    color: #fff;
+    border-bottom:3px solid #000;
+}
+
+#login-box {
 	width: 320px;
 	height: 420px;
 	background: rgba (0, 0, 0, 0.5);
 	color: #fff;
-	top: 50%;
+	top: 55%;
 	left: 50%;
 	position: absolute;
 	transform: translate(-50%, -50%);
@@ -36,18 +58,18 @@ h1 {
 	font-size: 22px;
 }
 
-.login-box p{
+#login-box p{
 	margin: 0;
 	padding: 0;
 	font-weight: bold;
 }
 
-.login-box input{
+#login-box input{
 	width: 100%;
 	margin-bottom: 20px;
 }
 
-.login-box input[type="email"], input[type="senha"]
+#login-box input[type="email"], input[type="senha"]
 {
 	border: none;
 	border-bottom: 1px	solid #fff;
@@ -58,7 +80,7 @@ h1 {
 	font-size: 16px;
 }
 
-.login-box input[type="entrar"]
+#login-box input[type="entrar"]
 {
 	border: none;
 	outline: none;
@@ -69,25 +91,25 @@ h1 {
 	border-radius: 20px;
 }
 
-.login-box input[type="entrar"]:hover
+#login-box input[type="entrar"]:hover
 {
 	cursor: pointer;
 	background: #39dc79
 	color: #000;	
 }
 
-.login-box a{
+#login-box a{
 	text-decoration: none;
 	font-size: 14px;
 	color: #fff;
 }
 
-.login-box a:hover
+#login-box a:hover
 {
 	color: #00FF00;
 }
 
-.login-box input[type="checkbox"]
+#login-box input[type="checkbox"]
 {
 	margin:0 0 0;
 	vertical-align: middle;
