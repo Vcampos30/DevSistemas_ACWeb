@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="pt">
+	<head>
+		<meta charset='utf-8'>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta http-equiv="X-UA-Compatible" content="ie=edge">
+		<title>Formulário Do Disciplina</title>
+        <link rel="stylesheet" type="text/css" href="estilo.css">
+	</head
+<body>
+	<h1>New/Update Disciplina </h1>
+	
+	<form method="POST">
+		{% csrf_token %}
+		{{ form }}
+		<button type="submit">Save</button>
+	</form>
+	
+	{% if disciplina %}
+		<a href="{% url 'delete_disciplina' disciplina.id %}">Delete</a>
+	{% endif %}
+</body>
+</html>
